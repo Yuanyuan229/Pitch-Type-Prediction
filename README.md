@@ -4,18 +4,18 @@ Sports Analytics - Pitch Type Prediction for Baseball
 
 If a hitter can gain even a slight improvement in guessing which pitch is coming next, his success could increase dramatically. A useful prediction model could aid teams in tipping their hitters on what to expect. Conversely, it could be utilized for identifying where their own pitchers may be predictable.
 
-## data source
-MLB Pitch Data 2015-2018 https://www.kaggle.com/pschale/mlb-pitch-data-20152018
-2018 MLB Standard Pitching https://www.baseball-reference.com/leagues/MLB/2018-standard-pitching.shtml
-Pitcher Info Sample Page https://www.baseball-reference.com/players/b/bauertr01.shtml
+## Data Source
+- MLB Pitch Data 2015-2018 https://www.kaggle.com/pschale/mlb-pitch-data-20152018
+- 2018 MLB Standard Pitching https://www.baseball-reference.com/leagues/MLB/2018-standard-pitching.shtml
+- Pitcher Info Sample Page https://www.baseball-reference.com/players/b/bauertr01.shtml
 
-## web scrapping
+## Web Scrapping
 Refer to file: 
 Pitch Data - Web Scrapping and Database creation.ipynb
 
 Besides using the cleaned pitch data from Kaggle, we also did web scrapping to get more features and make the data more comprehensive.
 
-## Prediction model
+## Prediction Model
 Refer to file:
 Pitch Type Prediction.ipynb
 
