@@ -9,9 +9,9 @@ If a hitter can gain even a slight improvement in guessing which pitch is coming
 - 2018 MLB Standard Pitching https://www.baseball-reference.com/leagues/MLB/2018-standard-pitching.shtml
 - Pitcher Info Sample Page https://www.baseball-reference.com/players/b/bauertr01.shtml
 
-## Web Scrapping
+## Web Scraping
 Refer to file: 
-Pitch Data - Web Scrapping and Database creation.ipynb
+Pitch Data - Web Scraping and Database creation.ipynb
 
 Besides using the cleaned pitch data from Kaggle, we also did web scrapping to get more features and make the data more comprehensive.
 
@@ -27,6 +27,10 @@ Extremely uncommon pitches like Eephus pitches are filtered out, and then the re
 
 ## Conclusion
 
-Inspired by the Astros’ sign-stealing scandal, this project uses machine learning techniques to predict pitch type. This analysis uses a random forest model to predict pitches in multiple different scenarios. From these different scenarios it is recommended that on average batters should consider whether or not a runner is on third to receive a fastball and right handed pitchers pitching towards a left handed hitter with low ball count is most likely to throw a fastcall regardless of pitch number or a running being on base. In some of our more filtered models, like in our all pitchers versus Astros batters model (Appendix C), we can say having a high ball count with a runner on third means that an Astros batter is most likely to see a fastball hurled over home plate (assuming they are a right handed batter). 
+Inspired by the Astros’ sign-stealing scandal, this project uses machine learning techniques to predict pitch type. This analysis uses a random forest model to predict pitches in multiple different scenarios. From these different scenarios it is recommended that on average batters should consider whether or not a runner is on third to receive a fastball and right handed pitchers pitching towards a left handed hitter with low ball count is most likely to throw a fastcall regardless of pitch number or a running being on base. In some of our more filtered models, like in our all pitchers versus Astros batters model, we can say having a high ball count with a runner on third means that an Astros batter is most likely to see a fastball hurled over home plate (assuming they are a right handed batter). 
 
 For future analysis, pitchers can be divided into different positions such as starter, relief, and closer. These different pitching positions vary in the average number of pitches per game and therefore some positions may favor different pitch types based on different game contexts. Additionally, coaches may want to break down this model to a pitcher specific level for pitchers that their team face regularly, potentially pitchers from other teams in their own divisions. This will allow batters to have a better fit edge on a higher number at bats they face opposed to a generalized recommendation. Lastly, machine learning models for pitch prediction need evolve as more data becomes available. 
+
+### Note:
+
+Code available in .ipynb & .py format, code for web scraping and pitch type prediction are separate.
